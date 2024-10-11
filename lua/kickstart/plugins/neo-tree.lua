@@ -22,4 +22,5 @@ return {
       },
     },
   },
+  vim.keymap.set('n', '<leader>n', '<Cmd>Neotree toggle<CR>', { desc = 'Toggle [N]eoTree' }),
 }
