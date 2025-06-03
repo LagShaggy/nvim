@@ -972,6 +972,7 @@ require('lazy').setup({
   require 'lagshaggy.plugins.neo-tree',
   -- require 'lagshaggy.plugins.lsp_zero',
   require 'lagshaggy.plugins.git', -- adds gitsigns recommend keymaps
+  require 'lagshaggy.plugins.copilot',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
